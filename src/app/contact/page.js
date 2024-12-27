@@ -1,11 +1,10 @@
-import React from 'react';
 import Link from 'next/link';
+export default function about() {
 
-const Page = () => {
   return (
     <>
       <header className="header">
-        <Link href="/page.js" className="title">SpeakPeek</Link>
+        <Link href="/" className="title">SpeakPeek</Link>
         <nav className="navbar">
           <Link href="/about">About</Link>
           <Link href="/contact">Contact Us</Link>
@@ -13,11 +12,11 @@ const Page = () => {
       </header>
       <main>
         <p>
-          Coming Soon..
+          admin@speakpeek.net
         </p>
       </main>
     </>
   );
 };
 
-export default Page;
+
